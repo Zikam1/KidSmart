@@ -4,7 +4,7 @@
 
       <!-- Logo / Brand -->
       <NuxtLink to="/" class="flex items-center gap-2 font-bold text-lg text-[#145DA0]">
-        📘 KidSmart
+        📘 GiggleLearn
       </NuxtLink>
 
       <!-- Desktop Menu -->

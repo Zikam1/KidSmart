@@ -4,10 +4,10 @@
     <!-- Hero Section -->
     <section class="bg-[#145DA0] text-white py-16 px-6 md:px-20 text-center">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">
-        About KidSmart
+        About GiggleLearn
       </h1>
       <p class="text-lg md:text-xl max-w-2xl mx-auto">
-        KidSmart is a joyful learning space where children build confidence,
+        GiggleLearn is a joyful learning space where children build confidence,
         curiosity, and strong thinking skills through fun and guided lessons.
       </p>
     </section>
@@ -79,7 +79,7 @@
           Our Story
         </h2>
         <p class="text-gray-700">
-          KidSmart was created to help children learn in a safe,
+          GiggleLearn was created to help children learn in a safe,
           happy, and supportive environment. We focus on early learning,
           confidence building, and helping kids discover their talents
           through guided activities and simple lessons.
@@ -129,7 +129,7 @@
     <!-- Call to Action -->
     <section class="bg-[#145DA0] text-white py-12 px-6 md:px-20 text-center">
       <h2 class="text-2xl md:text-3xl font-bold mb-3">
-        Join KidSmart Today
+        Join GiggleLearn Today
       </h2>
       <p class="mb-4 text-gray-100">
         Give your child a fun, safe, and smart learning experience

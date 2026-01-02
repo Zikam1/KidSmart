@@ -8,7 +8,7 @@
           Contact Us
         </h1>
         <p class="max-w-3xl text-lg text-blue-100">
-          KidSmart – A fun and supportive learning space for growing minds
+          GiggleLearn – A fun and supportive learning space for growing minds
         </p>
       </div>
     </header>
@@ -29,7 +29,7 @@
         <div class="lg:w-1/2 space-y-6">
           <h2 class="text-3xl font-bold text-[#145DA0]">Get in Touch</h2>
           <p class="text-gray-700 leading-relaxed">
-            KidSmart welcomes parents, guardians, and partners interested in supporting children’s learning. Reach us for enquiries or general support.
+            GiggleLearn welcomes parents, guardians, and partners interested in supporting children’s learning. Reach us for enquiries or general support.
           </p>
 
           <div class="grid grid-cols-1 gap-6">
@@ -38,7 +38,7 @@
               <span class="text-[#145DA0] text-2xl">🏠</span>
               <div>
                 <h3 class="font-semibold mb-1">Learning Center Address</h3>
-                <p>KidSmart Learning Center, Safe & Friendly Environment, Nigeria</p>
+                <p>GiggleLearn Learning Center, Safe & Friendly Environment, Nigeria</p>
               </div>
             </div>
 
@@ -47,7 +47,7 @@
               <span class="text-[#145DA0] text-2xl">✉️</span>
               <div>
                 <h3 class="font-semibold mb-1">Email</h3>
-                <p>hello@kidsmartlearning.com</p>
+                <p>hello@GiggleLearning.com</p>
               </div>
             </div>
 
@@ -58,7 +58,7 @@
                 <h3 class="font-semibold mb-1">WhatsApp</h3>
                 <p>
                   <a
-                    href="https://wa.me/2348104233630?text=Hello%20KidSmart!"
+                    href="https://wa.me/2348104233630?text=Hello%20GiggleLearn!"
                     target="_blank"
                     class="text-[#145DA0] font-medium hover:underline"
                   >

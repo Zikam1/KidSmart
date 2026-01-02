@@ -7,10 +7,10 @@
           <!-- Left: Logo & Description -->
           <div class="space-y-6">
             <div class="flex items-center gap-3">
-              <span class="text-xl font-bold">KidSmart</span>
+              <span class="text-xl font-bold">GiggleLearn</span>
             </div>
             <p class="text-gray-600 leading-relaxed">
-              KidSmart is a fun and safe learning platform where children
+              GiggleLearn is a fun and safe learning platform where children
               learn, grow, and build confidence through playful and guided lessons.
             </p>
 
@@ -54,7 +54,7 @@
             <h4 class="text-lg font-semibold mb-6">Get in Touch</h4>
             <ul class="space-y-4 text-gray-700">
               <li>
-                <span class="font-medium">Email:</span> hello@kidsmart.com
+                <span class="font-medium">Email:</span> hello@GiggleLearn.com
               </li>
               <li>
                 <span class="font-medium">Phone:</span> +234 810 423 3630
@@ -74,7 +74,7 @@
                  items-center text-gray-500 text-sm gap-4"
         >
           <p>
-            © {{ new Date().getFullYear() }} KidSmart.
+            © {{ new Date().getFullYear() }} GiggleLearn.
             Smart learning made fun 🎒
           </p>
           <div class="flex gap-4">
