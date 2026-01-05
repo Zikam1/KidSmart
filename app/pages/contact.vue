@@ -2,31 +2,41 @@
   <section class="bg-white text-gray-900 min-h-screen">
     
     <!-- Header -->
-    <header class="bg-[#145DA0] py-20 px-6">
-      <div class="max-w-6xl mx-auto text-left">
-        <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-white">
-          Contact Us
-        </h1>
-        <p class="max-w-3xl text-lg text-blue-100">
-          GiggleLearn – A fun and supportive learning space for growing minds
-        </p>
+    <header class="bg-[#145DA0] py-20 px-6 md:px-20">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
+        <!-- Logo -->
+        <div class="text-white text-2xl font-bold mb-4 md:mb-0">
+          GiggleLearn
+        </div>
+        <!-- Header text -->
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl md:text-5xl font-extrabold mb-2 text-white">
+            Contact Us
+          </h1>
+          <p class="max-w-3xl text-lg text-blue-100">
+            GiggleLearn – A safe and supportive learning space for growing minds
+          </p>
+        </div>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-6xl mx-auto px-6 py-20 space-y-24">
-
-      <!-- Get in Touch Section -->
-      <section class="flex flex-col lg:flex-row items-start gap-16">
+    <main class="max-w-7xl mx-auto px-6 md:px-20 py-20">
+      <section class="grid lg:grid-cols-2 gap-16 items-center">
         
         <!-- Left Illustration -->
-        <div class="lg:w-1/2 relative h-80 lg:h-[400px] rounded-xl overflow-hidden shadow-lg">
-          <!-- Illustration placeholder -->
-          <div class="absolute inset-0 bg-gradient-to-t from-black/20"></div>
+        <div class="relative h-80 lg:h-[400px] rounded-xl overflow-hidden shadow-lg">
+          <img 
+            src="/assets/cont.jpg" 
+            alt="Children learning" 
+            class="w-full h-full object-cover rounded-xl"
+          />
+          <!-- Gradient overlay -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 rounded-xl"></div>
         </div>
 
         <!-- Right Contact Info -->
-        <div class="lg:w-1/2 space-y-6">
+        <div class="space-y-6">
           <h2 class="text-3xl font-bold text-[#145DA0]">Get in Touch</h2>
           <p class="text-gray-700 leading-relaxed">
             GiggleLearn welcomes parents, guardians, and partners interested in supporting children’s learning. Reach us for enquiries or general support.
@@ -38,7 +48,7 @@
               <span class="text-[#145DA0] text-2xl">🏠</span>
               <div>
                 <h3 class="font-semibold mb-1">Learning Center Address</h3>
-                <p>GiggleLearn Learning Center, Safe & Friendly Environment, Nigeria</p>
+                <p>GiggleLearn Learning Center, Safe & Friendly Environment</p>
               </div>
             </div>
 
@@ -47,11 +57,18 @@
               <span class="text-[#145DA0] text-2xl">✉️</span>
               <div>
                 <h3 class="font-semibold mb-1">Email</h3>
-                <p>hello@GiggleLearning.com</p>
+                <p>
+                  <a
+                    href="mailto:hello@gigglelearn.com"
+                    class="text-[#145DA0] font-medium hover:underline"
+                  >
+                    hello@gigglelearn.com
+                  </a>
+                </p>
               </div>
             </div>
 
-            <!-- WhatsApp -->
+            <!-- WhatsApp Button (Number Hidden) -->
             <div class="flex items-start gap-4">
               <span class="text-[#145DA0] text-2xl">📱</span>
               <div>
@@ -60,9 +77,9 @@
                   <a
                     href="https://wa.me/2348104233630?text=Hello%20GiggleLearn!"
                     target="_blank"
-                    class="text-[#145DA0] font-medium hover:underline"
+                    class="bg-[#25D366] text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition inline-block"
                   >
-                    +234 810 423 3630
+                    Chat with us
                   </a>
                 </p>
               </div>
@@ -80,11 +97,20 @@
         </div>
 
       </section>
-
     </main>
   </section>
 </template>
 
 <script setup>
-// Pure contact page – no enrollment/programmes
+// Pure contact page – no extra logic needed
 </script>
+
+<style scoped>
+/* Optional: smooth hover effect for the image */
+img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.03);
+}
+</style>

@@ -10,21 +10,22 @@
             Who We Are
           </h2>
           <p class="text-gray-700 mb-4 leading-relaxed">
-            We are a fun and friendly learning community created to help children
-            grow smarter, more confident, and creative through play-based learning.
+            We are a professional learning community dedicated to helping children develop strong 
+            skills in <strong>English and Mathematics</strong>. Our goal is to build confident, 
+            capable learners through structured lessons and guided practice.
           </p>
           <p class="text-gray-600 leading-relaxed">
-            Our programs help kids learn important life skills such as thinking,
-            problem-solving, teamwork, and creativity in a happy and safe environment.
+            Our programs focus on enhancing critical thinking, problem-solving, and communication 
+            skills in a safe and supportive environment that promotes academic growth.
           </p>
         </div>
 
         <!-- Right: Visual Box -->
         <div class="flex justify-center">
           <div class="relative max-w-sm w-full rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
-             <img
+            <img
               src="/assets/pcc.jpg"
-              alt="World Map"
+              alt="Children Learning"
               class="w-full h-auto object-cover"
             />
 
@@ -45,32 +46,32 @@
   <!-- MISSION SECTION -->
   <section class="relative min-h-[50vh] bg-[#145DA0] overflow-hidden flex items-center justify-center">
 
-  <!-- Overlays -->
-  <div class="absolute inset-0 bg-black/70"></div>
-  <div
-    class="absolute inset-0 bg-[#145DA0]
-           from-blue-700/70 via-indigo-600/60 to-purple-500/50"
-  ></div>
+    <!-- Overlays -->
+    <div class="absolute inset-0 bg-black/70"></div>
+    <div
+      class="absolute inset-0 bg-[#145DA0]
+             from-blue-700/70 via-indigo-600/60 to-purple-500/50"
+    ></div>
 
-  <!-- Content -->
-  <div class="relative max-w-3xl mx-auto px-6 text-center text-white space-y-6">
+    <!-- Content -->
+    <div class="relative max-w-3xl mx-auto px-6 text-center text-white space-y-6">
 
-    <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold">
-      Our Mission
-    </h2>
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold">
+        Our Mission
+      </h2>
 
-    <p class="text-white/90 text-lg leading-relaxed">
-      Our mission is to help children learn with joy by building strong thinking,
-      creativity, and communication skills from an early age.
-    </p>
+      <p class="text-white/90 text-lg leading-relaxed">
+        Our mission is to support children in building strong <strong>English and Mathematics skills</strong> 
+        while fostering clear thinking, creativity, and effective communication from an early age.
+      </p>
 
-    <p class="text-white/80 text-lg leading-relaxed">
-      We create simple lessons, fun activities, and friendly guidance
-      that help kids grow academically and socially.
-    </p>
+      <p class="text-white/80 text-lg leading-relaxed">
+        We provide well-structured lessons, guided practice, and consistent support 
+        that help children achieve academic success and grow confident in their abilities.
+      </p>
 
-  </div>
-</section>
+    </div>
+  </section>
 
   <!-- BENEFITS SECTION -->
   <section class="relative py-20 bg-white">
@@ -82,8 +83,8 @@
           What Kids Will Learn
         </h2>
         <p class="mt-4 text-gray-600 text-lg leading-relaxed">
-          Our learning program helps children grow smarter, happier,
-          and more confident every day.
+          Our programs help children strengthen their English and Mathematics skills while 
+          developing confidence, critical thinking, and effective communication.
         </p>
       </div>
 
@@ -93,30 +94,30 @@
         <!-- Benefit 1 -->
         <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
           <h3 class="text-xl font-semibold text-gray-900 mb-2">
-            Thinking Skills
+            Critical Thinking
           </h3>
           <p class="text-gray-600 leading-relaxed">
-            Kids learn how to think clearly, solve problems, and ask smart questions.
+            Children learn how to solve problems, think logically, and approach challenges effectively in both English and Maths.
           </p>
         </div>
 
         <!-- Benefit 2 -->
         <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
           <h3 class="text-xl font-semibold text-gray-900 mb-2">
-            Confidence Building
+            Confidence & Communication
           </h3>
           <p class="text-gray-600 leading-relaxed">
-            We help children believe in themselves and express their ideas freely.
+            We help children express themselves clearly in English and gain confidence in solving Maths problems.
           </p>
         </div>
 
         <!-- Benefit 3 -->
         <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
           <h3 class="text-xl font-semibold text-gray-900 mb-2">
-            Fun Learning
+            Structured Learning
           </h3>
           <p class="text-gray-600 leading-relaxed">
-            Learning becomes exciting through games, activities, and teamwork.
+            Lessons are carefully designed to build skills step by step, making learning English and Maths clear, effective, and consistent.
           </p>
         </div>
 

@@ -10,8 +10,9 @@
               <span class="text-xl font-bold">GiggleLearn</span>
             </div>
             <p class="text-gray-600 leading-relaxed">
-              GiggleLearn is a fun and safe learning platform where children
-              learn, grow, and build confidence through playful and guided lessons.
+              GiggleLearn is a professional learning platform where children strengthen 
+              their <strong>English and Mathematics skills</strong> through guided lessons, 
+              structured activities, and consistent practice in a safe environment.
             </p>
 
             <!-- Social Icons -->
@@ -37,13 +38,13 @@
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/programs" class="hover:text-black transition">
+                <NuxtLink to="/learning" class="hover:text-black transition">
                   Learning Programs
                 </NuxtLink>
               </li>
               <li>
                 <NuxtLink to="/contact" class="hover:text-black transition">
-                  Contact 
+                  Contact
                 </NuxtLink>
               </li>
             </ul>
@@ -51,16 +52,23 @@
 
           <!-- Right: Contact -->
           <div>
-            <h4 class="text-lg font-semibold mb-6">Get in Touch</h4>
+            <h4 class="text-lg font-semibold mb-6">Contact</h4>
             <ul class="space-y-4 text-gray-700">
               <li>
-                <span class="font-medium">Email:</span> hello@GiggleLearn.com
+                <span class="font-medium">Email:</span> 
+                <a href="mailto:hello@gigglelearn.com" class="text-[#145DA0] hover:underline">
+                  hello@gigglelearn.com
+                </a>
               </li>
               <li>
-                <span class="font-medium">Phone:</span> +234 810 423 3630
-              </li>
-              <li>
-                <span class="font-medium">Location:</span> -
+                <span class="font-medium">WhatsApp:</span>
+                <a
+                  href="https://wa.me/2348104233630?text=Hello%20GiggleLearn!"
+                  target="_blank"
+                  class="bg-[#25D366] text-white px-4 py-1 rounded font-medium hover:bg-green-600 transition inline-block ml-2"
+                >
+                  Chat with us
+                </a>
               </li>
             </ul>
           </div>
@@ -75,7 +83,7 @@
         >
           <p>
             © {{ new Date().getFullYear() }} GiggleLearn.
-            Smart learning made fun 🎒
+            Supporting children’s growth in English and Mathematics.
           </p>
           <div class="flex gap-4">
             <a href="#" class="hover:text-black transition">Facebook</a>

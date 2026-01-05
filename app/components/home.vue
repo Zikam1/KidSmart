@@ -43,8 +43,8 @@
 
         <!-- Subtitle -->
         <p class="mt-5 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto animate-fadeIn delay-200">
-          Helping children build strong reading and number skills through fun lessons, games,
-          and daily practice — all in a safe and friendly space.
+          Helping children achieve confidence in English and Mathematics through clear
+           instruction, regular practice, and supportive guidance.
         </p>
 
         <!-- Call-to-Action Buttons -->

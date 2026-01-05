@@ -7,8 +7,9 @@
         About GiggleLearn
       </h1>
       <p class="text-lg md:text-xl max-w-2xl mx-auto">
-        GiggleLearn is a joyful learning space where children build confidence,
-        curiosity, and strong thinking skills through fun and guided lessons.
+        GiggleLearn is a professional learning platform where children strengthen their 
+        <strong>English and Mathematics skills</strong> through structured lessons, guided practice, 
+        and consistent support in a safe environment.
       </p>
     </section>
 
@@ -20,8 +21,8 @@
             Our Mission
           </h2>
           <p class="text-gray-700">
-            To help children learn happily by combining play, creativity,
-            and simple lessons that build strong foundations for life.
+            To help children build strong <strong>English and Mathematics foundations</strong> 
+            through structured lessons, guided practice, and consistent academic support.
           </p>
         </div>
         <div>
@@ -29,8 +30,8 @@
             Our Vision
           </h2>
           <p class="text-gray-700">
-            To raise confident, curious, and smart kids who love learning
-            and believe in their ability to succeed.
+            To raise confident and capable learners who excel in English and Mathematics, 
+            and develop critical thinking and communication skills for lifelong success.
           </p>
         </div>
       </div>
@@ -45,26 +46,23 @@
         <div class="grid md:grid-cols-3 gap-6">
 
           <div class="bg-white p-6 rounded shadow">
-            <h3 class="font-semibold mb-2">Fun Learning</h3>
+            <h3 class="font-semibold mb-2">Structured Learning</h3>
             <p class="text-gray-700">
-              We believe children learn best when lessons are enjoyable,
-              engaging, and exciting.
+              Lessons are carefully planned to ensure clear, step-by-step learning in English and Maths.
             </p>
           </div>
 
           <div class="bg-white p-6 rounded shadow">
-            <h3 class="font-semibold mb-2">Care & Support</h3>
+            <h3 class="font-semibold mb-2">Support & Guidance</h3>
             <p class="text-gray-700">
-              Every child is supported with patience, kindness,
-              and positive encouragement.
+              Every child receives patient, encouraging, and personalized guidance to grow academically.
             </p>
           </div>
 
           <div class="bg-white p-6 rounded shadow">
-            <h3 class="font-semibold mb-2">Growth</h3>
+            <h3 class="font-semibold mb-2">Skill Development</h3>
             <p class="text-gray-700">
-              We focus on steady progress, confidence building,
-              and celebrating every achievement.
+              We focus on building confidence, critical thinking, and problem-solving abilities alongside academic skills.
             </p>
           </div>
 
@@ -79,10 +77,10 @@
           Our Story
         </h2>
         <p class="text-gray-700">
-          GiggleLearn was created to help children learn in a safe,
-          happy, and supportive environment. We focus on early learning,
-          confidence building, and helping kids discover their talents
-          through guided activities and simple lessons.
+          GiggleLearn was established to provide children with a professional and structured learning 
+          environment focused on <strong>English and Mathematics mastery</strong>. 
+          Our approach emphasizes academic growth, confidence-building, and critical thinking through 
+          guided lessons and consistent practice.
         </p>
       </div>
     </section>
@@ -99,8 +97,7 @@
             <h3 class="font-semibold mb-1">Sarah Adams</h3>
             <p class="text-blue-700 font-medium mb-2">Lead Educator</p>
             <p class="text-gray-700">
-              Guides learning programs and ensures lessons are fun,
-              safe, and age-appropriate.
+              Oversees learning programs and ensures lessons in English and Mathematics are structured, engaging, and effective.
             </p>
           </div>
 
@@ -108,8 +105,7 @@
             <h3 class="font-semibold mb-1">Michael Lee</h3>
             <p class="text-blue-700 font-medium mb-2">Learning Coordinator</p>
             <p class="text-gray-700">
-              Supports lesson planning and helps children
-              stay engaged and confident.
+              Supports curriculum planning and monitors student progress to maintain consistent academic growth.
             </p>
           </div>
 
@@ -117,8 +113,7 @@
             <h3 class="font-semibold mb-1">Grace Wilson</h3>
             <p class="text-blue-700 font-medium mb-2">Activity Coach</p>
             <p class="text-gray-700">
-              Designs fun activities and games that help
-              kids learn while playing.
+              Designs interactive lessons and exercises that reinforce learning objectives in English and Maths.
             </p>
           </div>
 
@@ -129,11 +124,11 @@
     <!-- Call to Action -->
     <section class="bg-[#145DA0] text-white py-12 px-6 md:px-20 text-center">
       <h2 class="text-2xl md:text-3xl font-bold mb-3">
-        Join GiggleLearn Today
+        Enroll Your Child Today
       </h2>
       <p class="mb-4 text-gray-100">
-        Give your child a fun, safe, and smart learning experience
-        that builds confidence and curiosity.
+        Give your child a professional, structured learning experience that strengthens 
+        <strong>English and Mathematics skills</strong> while building confidence and critical thinking.
       </p>
       <button
         class="bg-white text-blue-900 font-bold px-6 py-2 rounded

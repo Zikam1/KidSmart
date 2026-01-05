@@ -82,6 +82,11 @@
 
         <!-- Right Illustration -->
         <div class="lg:w-1/2 relative h-80 lg:h-[500px] rounded-xl overflow-hidden shadow-lg">
+          <img 
+    src="/assets/jui.jpg" 
+    alt="Children learning" 
+    class="w-full h-full object-cover rounded-xl"
+  />
           <!-- Placeholder for image or illustration -->
           <div class="absolute inset-0 bg-gradient-to-t from-black/20"></div>
         </div>
