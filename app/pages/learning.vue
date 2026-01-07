@@ -44,8 +44,11 @@
             Age Group: 4 – 12 years
           </p>
 
-          <button class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition">
-            Enroll for Maths
+          <button
+            @click="enroll('Mathematics')"
+            class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
+          >
+            📱 Enroll for Maths
           </button>
         </div>
 
@@ -75,8 +78,11 @@
             Age Group: 4 – 12 years
           </p>
 
-          <button class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition">
-            Enroll for English
+          <button
+            @click="enroll('English')"
+            class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
+          >
+            📱 Enroll for English
           </button>
         </div>
 
@@ -106,8 +112,11 @@
             Age Group: 6 – 12 years
           </p>
 
-          <button class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition">
-            Enroll for IT
+          <button
+            @click="enroll('IT')"
+            class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
+          >
+            📱 Enroll for IT
           </button>
         </div>
 
@@ -117,5 +126,11 @@
 </template>
 
 <script setup>
-// Static section – no JS required
+const phoneNumber = '2348104233630' // WhatsApp number in international format without '+'
+
+function enroll(subject) {
+  const message = encodeURIComponent(`Hello, I want to enroll for ${subject}.`)
+  const url = `https://wa.me/${phoneNumber}?text=${message}`
+  window.open(url, '_blank')
+}
 </script>

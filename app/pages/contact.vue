@@ -2,23 +2,17 @@
   <section class="bg-white text-gray-900 min-h-screen">
     
     <!-- Header -->
-    <header class="bg-[#145DA0] py-20 px-6 md:px-20">
-      <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
-        <!-- Logo -->
-        <div class="text-white text-2xl font-bold mb-4 md:mb-0">
-          GiggleLearn
-        </div>
-        <!-- Header text -->
-        <div class="text-center md:text-left">
-          <h1 class="text-4xl md:text-5xl font-extrabold mb-2 text-white">
-            Contact Us
-          </h1>
-          <p class="max-w-3xl text-lg text-blue-100">
-            GiggleLearn – A safe and supportive learning space for growing minds
-          </p>
-        </div>
-      </div>
-    </header>
+   <!-- Header -->
+<header class="bg-[#145DA0] py-6 px-6 md:px-6 flex items-center justify-center min-h-[300px] md:min-h-[200px]">
+  <div class="text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-2 text-white">
+      Contact Us
+    </h1>
+    <p class="max-w-3xl text-lg text-blue-100 mx-auto">
+      GiggleLearn : A safe and supportive learning space for Growing Minds
+    </p>
+  </div>
+</header>
 
     <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-6 md:px-20 py-20">
@@ -75,7 +69,7 @@
                 <h3 class="font-semibold mb-1">WhatsApp</h3>
                 <p>
                   <a
-                    href="https://wa.me/2348104233630?text=Hello%20GiggleLearn!"
+                    href="https://wa.me/2348151482035?text=Hello%20GiggleLearn!"
                     target="_blank"
                     class="bg-[#25D366] text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition inline-block"
                   >
@@ -90,7 +84,7 @@
               <span class="text-[#145DA0] text-2xl">⏰</span>
               <div>
                 <h3 class="font-semibold mb-1">Opening Hours</h3>
-                <p>Monday – Friday, 8:00 AM – 4:00 PM</p>
+                <p>Monday – Saturday </p>
               </div>
             </div>
           </div>

@@ -75,53 +75,52 @@
 
   <!-- BENEFITS SECTION -->
   <section class="relative py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
 
-      <!-- Title -->
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900">
-          What Kids Will Learn
-        </h2>
-        <p class="mt-4 text-gray-600 text-lg leading-relaxed">
-          Our programs help children strengthen their English and Mathematics skills while 
-          developing confidence, critical thinking, and effective communication.
+    <!-- Title -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900">
+        What Your Child Will Learn
+      </h2>
+      <p class="mt-4 text-gray-600 text-lg leading-relaxed">
+        Our programs help children improve their English and Maths skills while building confidence, thinking skills, and the ability to express themselves clearly.
+      </p>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      <!-- Benefit 1 -->
+      <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+          Thinking Skills
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          Your child will learn how to solve problems in Maths and think logically, helping them approach challenges with confidence in English too.
         </p>
       </div>
 
-      <!-- Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-
-        <!-- Benefit 1 -->
-        <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">
-            Critical Thinking
-          </h3>
-          <p class="text-gray-600 leading-relaxed">
-            Children learn how to solve problems, think logically, and approach challenges effectively in both English and Maths.
-          </p>
-        </div>
-
-        <!-- Benefit 2 -->
-        <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">
-            Confidence & Communication
-          </h3>
-          <p class="text-gray-600 leading-relaxed">
-            We help children express themselves clearly in English and gain confidence in solving Maths problems.
-          </p>
-        </div>
-
-        <!-- Benefit 3 -->
-        <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">
-            Structured Learning
-          </h3>
-          <p class="text-gray-600 leading-relaxed">
-            Lessons are carefully designed to build skills step by step, making learning English and Maths clear, effective, and consistent.
-          </p>
-        </div>
-
+      <!-- Benefit 2 -->
+      <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+          Confidence & Communication
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          We help children express their ideas clearly in English and feel confident solving Maths problems, so they can succeed in school and at home.
+        </p>
       </div>
+
+      <!-- Benefit 3 -->
+      <div class="p-8 rounded-2xl bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+          Step-by-Step Learning
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          Lessons are designed to build skills gradually, making learning English and Maths simple, clear, and easy to follow for every child.
+        </p>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 </template>

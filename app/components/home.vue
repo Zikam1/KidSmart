@@ -50,7 +50,7 @@
         <!-- Call-to-Action Buttons -->
         <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4 animate-slideUp delay-400">
           <NuxtLink
-            to="/join"
+            to="/learning"
             class="rounded-xl px-6 py-3 bg-[#1E7ACB] text-white font-semibold hover:opacity-90 transition"
           >
             Start Learning
