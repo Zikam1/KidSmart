@@ -80,7 +80,7 @@
   <div class="grid lg:grid-cols-2">
 
     <!-- LEFT: IMAGE -->
-    <div class="relative h-80 md:h-[420px] lg:h-[480px]">
+    <div class="relative h-80 md:h-[420px] lg:h-[480px] ">
       <img
         src="/assets/pccc.png"
         alt="Kids learning and celebrating"
@@ -91,10 +91,10 @@
     </div>
 
     <!-- RIGHT: TEXT -->
-    <div class="flex items-center bg-[#145DA0] px-8 md:px-16">
-      <div class="max-w-xl text-white">
+    <div class="flex flex-col md:flex-row items-start items-center bg-[#145DA0] px-8 md:px-16  md:pt-0 md:pb-12  ">
+      <div class="max-w-xl text-white md:pb-12 mt-8 md:mt-0 mb-12">
 
-        <span class="inline-block mb-4 text-sm font-semibold uppercase tracking-wider text-white/80">
+        <span class="inline-block mb-4  text-sm font-semibold uppercase tracking-wider text-white/80">
           Celebrations
         </span>
 

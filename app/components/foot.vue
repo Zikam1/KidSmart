@@ -83,7 +83,7 @@
         >
           <p>
             © {{ new Date().getFullYear() }} GiggleLearn.
-            Supporting children’s growth in English and Mathematics.
+        
           </p>
           <div class="flex gap-4">
             <a href="#" class="hover:text-black transition">Facebook</a>

@@ -54,23 +54,24 @@
     ></div>
 
     <!-- Content -->
-    <div class="relative max-w-3xl mx-auto px-6 text-center text-white space-y-6">
+<div class="relative max-w-3xl mx-auto px-12 text-center text-white space-y-2
+            bg-[#145DA0] py-8 md:py-12 lg:py-16 rounded-xl">
+  
+  <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold">
+    Our Mission
+  </h2>
 
-      <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold">
-        Our Mission
-      </h2>
+  <p class="text-white/90 text-lg leading-relaxed">
+    Our mission is to support children in building strong <strong>English and Mathematics skills</strong> 
+    while fostering clear thinking, creativity, and effective communication from an early age.
+  </p>
 
-      <p class="text-white/90 text-lg leading-relaxed">
-        Our mission is to support children in building strong <strong>English and Mathematics skills</strong> 
-        while fostering clear thinking, creativity, and effective communication from an early age.
-      </p>
+  <p class="text-white/80 text-lg leading-relaxed">
+    We provide well-structured lessons, guided practice, and consistent support 
+    that help children achieve academic success and grow confident in their abilities.
+  </p>
 
-      <p class="text-white/80 text-lg leading-relaxed">
-        We provide well-structured lessons, guided practice, and consistent support 
-        that help children achieve academic success and grow confident in their abilities.
-      </p>
-
-    </div>
+</div>
   </section>
 
   <!-- BENEFITS SECTION -->
