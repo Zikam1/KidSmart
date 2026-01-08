@@ -121,22 +121,7 @@
       </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="bg-[#145DA0] text-white py-12 px-6 md:px-20 text-center">
-      <h2 class="text-2xl md:text-3xl font-bold mb-3">
-        Enroll Your Child Today
-      </h2>
-      <p class="mb-4 text-gray-100">
-        Give your child a professional, structured learning experience that strengthens 
-        <strong>English and Mathematics skills</strong> while building confidence and critical thinking.
-      </p>
-      <button
-        class="bg-white text-blue-900 font-bold px-6 py-2 rounded
-               hover:bg-gray-100 transition"
-      >
-        Get Started
-      </button>
-    </section>
+   
 
   </div>
 </template>

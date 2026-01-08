@@ -15,16 +15,8 @@
         <li><NuxtLink to="/contact" @click="close">Contact</NuxtLink></li>
       </ul>
 
-      <!-- Language Selector + Enroll CTA -->
-      <div class="hidden md:flex items-center gap-3">
-        <!-- Language Scrollable Dropdown -->
-        <select v-model="$i18n.locale" class="rounded-xl border px-3 py-1 text-sm text-gray-700 h-10 overflow-y-auto">
-          <option value="en">English</option>
-          <option value="fr">Français</option>
-          <option value="es">Español</option>
-        </select>
-
-        <!-- Enroll Button -->
+      <!-- Enroll CTA -->
+      <div class="hidden md:flex">
         <NuxtLink
           to="/enroll"
           class="rounded-xl bg-[#145DA0] px-5 py-2 text-sm font-semibold text-white hover:opacity-90"
@@ -49,16 +41,7 @@
         <li><NuxtLink to="/" @click="close">Home</NuxtLink></li>
         <li><NuxtLink to="/about" @click="close">About us</NuxtLink></li>
         <li><NuxtLink to="/learning" @click="close">Learning Programs</NuxtLink></li>
-        <li><NuxtLink to="/contact" @click="close">{{ $t('contact') }}</NuxtLink></li>
-
-        <!-- Mobile language selector -->
-        <li class="pt-2">
-          <select v-model="$i18n.locale" class="w-full rounded-xl border px-3 py-2 text-sm text-gray-700">
-            <option value="en">English</option>
-            <option value="fr">Français</option>
-            <option value="es">Español</option>
-          </select>
-        </li>
+        <li><NuxtLink to="/contact" @click="close">Contact</NuxtLink></li>
 
         <li class="pt-2">
           <NuxtLink
@@ -76,14 +59,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { useI18n } from 'vue-i18n'
 
 const isOpen = ref(false)
 const close = () => (isOpen.value = false)
-
-// Use i18n composable
-const { locale } = useI18n()
-
-// Set default language to English
-locale.value = 'en'
 </script>

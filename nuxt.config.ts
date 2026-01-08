@@ -16,7 +16,8 @@ i18n: {
     ],
     defaultLocale: 'en',
     vueI18n: './i18n.config.ts'
-  }
+  },
+
 })
 
   // Internationalization (i18n) configuration
