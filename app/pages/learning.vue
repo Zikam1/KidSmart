@@ -18,7 +18,7 @@
       <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
 
         <!-- Maths Program -->
-        <div class="group bg-gray-50 border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition">
+        <div class="group bg-gray-50 border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition flex flex-col">
           <div class="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-700 text-3xl mb-6">
             ➗
           </div>
@@ -46,14 +46,16 @@
 
           <button
             @click="enroll('Mathematics')"
-            class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
+            class="mt-auto w-full h-14 rounded-xl bg-[#145DA0] text-white font-semibold
+                   hover:bg-blue-700 transition
+                   flex items-center justify-center gap-2 whitespace-nowrap"
           >
             📱 Enroll for Maths
           </button>
         </div>
 
         <!-- English Program -->
-        <div class="group bg-gray-50 border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition">
+        <div class="group bg-gray-50 border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition flex flex-col">
           <div class="flex items-center justify-center w-16 h-16 rounded-full bg-green-100 text-green-700 text-3xl mb-6">
             📖
           </div>
@@ -80,14 +82,16 @@
 
           <button
             @click="enroll('English')"
-            class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
+            class="mt-auto w-full h-14 rounded-xl bg-[#145DA0] text-white font-semibold
+                   hover:bg-blue-700 transition
+                   flex items-center justify-center gap-2 whitespace-nowrap"
           >
             📱 Enroll for English
           </button>
         </div>
 
-        <!-- Computer IT Program -->
-        <div class="group bg-gray-50 border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition">
+        <!-- IT Program -->
+        <div class="group bg-gray-50 border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition flex flex-col">
           <div class="flex items-center justify-center w-16 h-16 rounded-full bg-purple-100 text-purple-700 text-3xl mb-6">
             💻
           </div>
@@ -114,7 +118,9 @@
 
           <button
             @click="enroll('IT')"
-            class="w-full py-3 rounded-xl bg-[#145DA0] text-white font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
+            class="mt-auto w-full h-14 rounded-xl bg-[#145DA0] text-white font-semibold
+                   hover:bg-blue-700 transition
+                   flex items-center justify-center gap-2 whitespace-nowrap"
           >
             📱 Enroll for IT
           </button>
@@ -126,7 +132,7 @@
 </template>
 
 <script setup>
-const phoneNumber = '2348104233630' // WhatsApp number in international format without '+'
+const phoneNumber = '2348104233630' // WhatsApp number without +
 
 function enroll(subject) {
   const message = encodeURIComponent(`Hello, I want to enroll for ${subject}.`)
