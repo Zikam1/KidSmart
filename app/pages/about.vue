@@ -4,10 +4,10 @@
     <!-- Hero Section -->
     <section class="bg-[#145DA0] text-white py-16 px-6 md:px-20 text-center">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">
-        About GiggleLearn
+        About GigglesLearn
       </h1>
       <p class="text-lg md:text-xl max-w-2xl mx-auto">
-        GiggleLearn is a professional learning platform where children strengthen their 
+        GigglesLearn is a professional learning platform where children strengthen their 
         <strong>English and Mathematics skills</strong> through structured lessons, guided practice, 
         and consistent support in a safe environment.
       </p>
@@ -77,7 +77,7 @@
           Our Story
         </h2>
         <p class="text-gray-700">
-          GiggleLearn was established to provide children with a professional and structured learning 
+          GigglesLearn was established to provide children with a professional and structured learning 
           environment focused on <strong>English and Mathematics mastery</strong>. 
           Our approach emphasizes academic growth, confidence-building, and critical thinking through 
           guided lessons and consistent practice.

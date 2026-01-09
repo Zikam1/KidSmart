@@ -8,7 +8,7 @@
           Learning Programmes & Enrolment
         </h1>
         <p class="max-w-3xl text-lg text-blue-100">
-          GiggleLearn – A fun and supportive learning space for growing minds
+          GigglesLearn – A fun and supportive learning space for growing minds
         </p>
       </div>
     </header>
@@ -22,7 +22,7 @@
         <!-- Left Content -->
         <div class="lg:w-1/2 space-y-6">
           <p class="text-gray-700 leading-relaxed">
-            Parents and guardians can enrol their children in GiggleLearn learning
+            Parents and guardians can enrol their children in GigglesLearn learning
             programmes designed to build confidence, creativity, and strong
             academic foundations through fun activities and guided lessons.
           </p>
@@ -54,7 +54,7 @@
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 4 – 12 years</p>
               <a
-                href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20English%20at%20GiggleLearn."
+                href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20English%20at%20GigglesLearn."
                 target="_blank"
                 class="bg-green-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-green-600 transition inline-block text-center"
               >
@@ -70,7 +70,7 @@
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 6 – 12 years</p>
               <a
-                href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20Computer%20IT%20at%20GiggleLearn."
+                href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20Computer%20IT%20at%20GigglesLearn."
                 target="_blank"
                 class="bg-purple-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-purple-600 transition inline-block text-center"
               >

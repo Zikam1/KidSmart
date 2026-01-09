@@ -8,7 +8,7 @@
           Our Learning Programs
         </h2>
         <p class="mt-4 text-lg text-gray-600">
-          At GiggleLearn, we focus on building strong foundations through
+          At GigglesLearn, we focus on building strong foundations through
           simple lessons, caring guidance, and fun learning experiences.
           Our programs are designed for young minds to grow with confidence.
         </p>

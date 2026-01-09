@@ -9,7 +9,7 @@
       Contact Us
     </h1>
     <p class="max-w-3xl text-lg text-blue-100 mx-auto">
-      GiggleLearn : A safe and supportive learning space for Growing Minds
+      GigglesLearn : A safe and supportive learning space for Growing Minds
     </p>
   </div>
 </header>
@@ -33,7 +33,7 @@
         <div class="space-y-6">
           <h2 class="text-3xl font-bold text-[#145DA0]">Get in Touch</h2>
           <p class="text-gray-700 leading-relaxed">
-            GiggleLearn welcomes parents, guardians, and partners interested in supporting children’s learning. Reach us for enquiries or general support.
+            GigglesLearn welcomes parents, guardians, and partners interested in supporting children’s learning. Reach us for enquiries or general support.
           </p>
 
           <div class="grid grid-cols-1 gap-6">
@@ -42,7 +42,7 @@
               <span class="text-[#145DA0] text-2xl">🏠</span>
               <div>
                 <h3 class="font-semibold mb-1">Learning Center Address</h3>
-                <p>GiggleLearn Learning Center, Safe & Friendly Environment</p>
+                <p>GigglesLearn Learning Center, Safe & Friendly Environment</p>
               </div>
             </div>
 
@@ -56,7 +56,7 @@
                     href="mailto:hello@gigglelearn.com"
                     class="text-[#145DA0] font-medium hover:underline"
                   >
-                    hello@gigglelearn.com
+                    hello@giggleslearn.com
                   </a>
                 </p>
               </div>

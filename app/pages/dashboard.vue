@@ -128,7 +128,7 @@ const payWithPaystack = () => {
 
   const handler = window.PaystackPop.setup({
     key: 'pk_live_41d795c8630b685b20c4fc66b1e4dac801f8924b',
-    email: 'gigglelearnparent@example.com',
+    email: 'giggleslearnparent@example.com',
     amount: payment.value.amount * 100,
     currency: 'NGN',
     ref: 'GL-' + Math.floor(Math.random() * 1000000),

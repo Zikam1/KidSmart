@@ -7,10 +7,10 @@
           <!-- Left: Logo & Description -->
           <div class="space-y-6">
             <div class="flex items-center gap-3">
-              <span class="text-xl font-bold">GiggleLearn</span>
+              <span class="text-xl font-bold">GL</span>
             </div>
             <p class="text-gray-600 leading-relaxed">
-              GiggleLearn is a professional learning platform where children strengthen 
+              GigglesLearn is a professional learning platform where children strengthen 
               their <strong>English and Mathematics skills</strong> through guided lessons, 
               structured activities, and consistent practice in a safe environment.
             </p>
@@ -56,8 +56,8 @@
             <ul class="space-y-4 text-gray-700">
               <li>
                 <span class="font-medium">Email:</span> 
-                <a href="mailto:hello@gigglelearn.com" class="text-[#145DA0] hover:underline">
-                  hello@gigglelearn.com
+                <a href="mailto:hello@giggleslearn.com" class="text-[#145DA0] hover:underline">
+                  hello@giggleslearn.com
                 </a>
               </li>
               <li>
@@ -82,7 +82,7 @@
                  items-center text-gray-500 text-sm gap-4"
         >
           <p>
-            © {{ new Date().getFullYear() }} GiggleLearn.
+            © {{ new Date().getFullYear() }} GigglesLearn.
         
           </p>
           <div class="flex gap-4">
