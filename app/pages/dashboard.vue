@@ -44,17 +44,17 @@
             <div class="text-4xl mb-2">💳</div>
             <h3 class="text-xl font-semibold">Make a Payment</h3>
             <p class="text-sm opacity-90">
-              Secure international payment via Paystack
+              Secure payment via Paystack
             </p>
           </div>
 
           <!-- Body -->
           <div class="p-6 space-y-6">
 
-            <!-- Currency -->
+            <!-- Currency Selector (Display Only) -->
             <div>
-              <label class="block mb-2 font-medium text-gray-700">Currency</label>
-              <select v-model="payment.currency" class="input">
+              <label class="block mb-2 font-medium text-gray-700">Currency (Display Only)</label>
+              <select v-model="payment.displayCurrency" class="input">
                 <option value="NGN">₦ Nigerian Naira</option>
                 <option value="USD">$ US Dollar</option>
                 <option value="GBP">£ British Pound</option>
@@ -65,7 +65,7 @@
             <!-- Amount -->
             <div>
               <label class="block mb-2 font-medium text-gray-700">
-                Amount  ({{ currencySymbol }})
+                Amount ({{ displaySymbol }})
               </label>
               <input
                 v-model="payment.amount"
@@ -75,17 +75,16 @@
               />
             </div>
 
-            <!-- Trust Badge -->
-            <div class="flex items-center gap-3 bg-[#145DA0]/5 p-4 rounded-xl text-sm text-gray-700">
-              🔒
-              <span>
-                International cards accepted. Secure & encrypted.
-              </span>
-            </div>
+            <!-- Conversion Info -->
+            <!-- <p class="text-sm text-gray-600">
+              💡 Amount will be processed in NGN. Approximate NGN value: ₦{{ convertedAmount }}
+            </p> -->
+
+            
 
             <!-- Pay Button -->
             <button @click="payWithPaystack" class="primary-btn">
-              Pay {{ currencySymbol }}{{ payment.amount || '0' }}
+              Pay {{ displaySymbol }}{{ payment.amount || '0' }}
             </button>
 
             <p
@@ -111,14 +110,14 @@
             <li>Access full learning reports</li>
             <li>Track Maths & English progress</li>
             <li>Support your child consistently</li>
-            <li>International & local payments</li>
+            <li>International & local cards accepted</li>
             <li>Fast and secure checkout</li>
           </ul>
 
           <div
             class="bg-white/70 p-4 rounded-xl border border-gray-200 text-gray-700 text-center text-sm"
           >
-            🔐 Foreign currency payments are automatically converted.
+            🔐 International cards accepted. Secure & encrypted.
           </div>
         </div>
       </div>
@@ -135,7 +134,7 @@ const paymentSuccess = ref(false)
 
 const payment = ref({
   amount: '',
-  currency: 'NGN'
+  displayCurrency: 'NGN' // This is for UX only
 })
 
 onMounted(() => {
@@ -148,13 +147,25 @@ onMounted(() => {
   }
 })
 
-const currencySymbol = computed(() => {
+// Display symbol based on user selection
+const displaySymbol = computed(() => {
   return {
     NGN: '₦',
     USD: '$',
     GBP: '£',
     EUR: '€'
-  }[payment.value.currency]
+  }[payment.value.displayCurrency]
+})
+
+// Convert foreign currencies to NGN for Paystack
+const convertedAmount = computed(() => {
+  const amt = Number(payment.value.amount) || 0
+  switch (payment.value.displayCurrency) {
+    case 'USD': return Math.round(amt * 950) // Example rate
+    case 'GBP': return Math.round(amt * 1150) // Example rate
+    case 'EUR': return Math.round(amt * 1030) // Example rate
+    default: return amt
+  }
 })
 
 const payWithPaystack = () => {
@@ -166,8 +177,8 @@ const payWithPaystack = () => {
   const handler = window.PaystackPop.setup({
     key: 'pk_live_41d795c8630b685b20c4fc66b1e4dac801f8924b',
     email: 'giggleslearnparent@example.com',
-    amount: Number(payment.value.amount) * 100,
-    currency: payment.value.currency,
+    amount: convertedAmount.value * 100, // NGN only
+    currency: 'NGN', // Always NGN
     ref: 'GL-' + Date.now(),
     callback() {
       paymentSuccess.value = true
