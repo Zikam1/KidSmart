@@ -1,6 +1,6 @@
 <template>
   <section class="bg-white text-gray-900 min-h-screen">
-    
+
     <!-- Header -->
     <header class="bg-[#145DA0] py-20 px-6">
       <div class="max-w-6xl mx-auto text-left">
@@ -22,25 +22,21 @@
         <!-- Left Content -->
         <div class="lg:w-1/2 space-y-6">
           <p class="text-gray-700 leading-relaxed">
-            Parents and guardians can enrol their children in GigglesLearn learning
-            programmes designed to build confidence, creativity, and strong
-            academic foundations through fun activities and guided lessons.
+            Parents and guardians can enrol their children in GigglesLearn learning programmes designed to build confidence, creativity, and strong academic foundations through fun activities and guided lessons.
           </p>
 
           <div class="grid grid-cols-1 gap-6">
+
             <!-- Mathematics -->
             <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-xl shadow hover:shadow-lg transition">
               <h3 class="font-semibold mb-2 text-blue-900 text-lg">Mathematics</h3>
               <p class="text-gray-700 mb-2">
-                Fun lessons that help children understand numbers, shapes,
-                problem-solving, and logical thinking.
+                Fun lessons that help children understand numbers, shapes, problem-solving, and logical thinking.
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 4 – 12 years</p>
-              <a
-                href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20Maths%20at%20GiggleLearn."
-                target="_blank"
-                class="bg-blue-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-blue-600 transition inline-block text-center"
-              >
+              <a href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20Maths%20at%20GiggleLearn." 
+                 target="_blank" 
+                 class="bg-blue-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-blue-600 transition inline-block text-center">
                 Enroll for Maths
               </a>
             </div>
@@ -49,15 +45,12 @@
             <div class="bg-green-50 border-l-4 border-green-400 p-6 rounded-xl shadow hover:shadow-lg transition">
               <h3 class="font-semibold mb-2 text-green-900 text-lg">English Language</h3>
               <p class="text-gray-700 mb-2">
-                Reading, writing, and speaking activities that build confidence
-                and communication skills.
+                Reading, writing, and speaking activities that build confidence and communication skills.
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 4 – 12 years</p>
-              <a
-                href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20English%20at%20GigglesLearn."
-                target="_blank"
-                class="bg-green-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-green-600 transition inline-block text-center"
-              >
+              <a href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20English%20at%20GigglesLearn." 
+                 target="_blank" 
+                 class="bg-green-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-green-600 transition inline-block text-center">
                 Enroll for English
               </a>
             </div>
@@ -69,28 +62,54 @@
                 Basic computer lessons, coding introductions, and safe technology use.
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 6 – 12 years</p>
-              <a
-                href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20Computer%20IT%20at%20GigglesLearn."
-                target="_blank"
-                class="bg-purple-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-purple-600 transition inline-block text-center"
-              >
+              <a href="https://wa.me/2348104233630?text=I%20want%20to%20enroll%20my%20child%20in%20Computer%20IT%20at%20GigglesLearn." 
+                 target="_blank" 
+                 class="bg-purple-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-purple-600 transition inline-block text-center">
                 Enroll for IT
               </a>
             </div>
+
           </div>
         </div>
 
         <!-- Right Illustration -->
         <div class="lg:w-1/2 relative h-80 lg:h-[500px] rounded-xl overflow-hidden shadow-lg">
-          <img 
-    src="/assets/jui.jpg" 
-    alt="Children learning" 
-    class="w-full h-full object-cover rounded-xl"
-  />
-          <!-- Placeholder for image or illustration -->
+          <img src="/assets/jui.jpg" alt="Children learning" class="w-full h-full object-cover rounded-xl" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/20"></div>
         </div>
+      </section>
 
+      <!-- Payment Info Section -->
+      <section class="bg-[#F0F8FF] py-20 px-6 rounded-xl shadow-inner max-w-6xl mx-auto space-y-8">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#145DA0]">
+            Why Pay for Our Classes?
+          </h2>
+          <p class="text-gray-700 text-lg leading-relaxed">
+            At GigglesLearn, every class is carefully designed to give your child the best learning experience. 
+            Each programme runs <span class="font-semibold">three times a week</span>, and every class costs 
+            <span class="font-semibold">$5</span>. This ensures we maintain small group sizes, personalized attention, 
+            and engaging lessons that build knowledge, creativity, and confidence.
+          </p>
+        </div>
+
+        <!-- Payment Breakdown Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+          <div class="bg-white border-l-4 border-blue-400 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold mb-2 text-blue-900">Class Frequency</h3>
+            <p class="text-gray-700">Each classes runs <span class="font-semibold">3 times per week</span> to ensure consistent learning and engagement.</p>
+          </div>
+
+          <div class="bg-white border-l-4 border-green-400 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold mb-2 text-green-900">Cost per Class</h3>
+            <p class="text-gray-700">Each class costs <span class="font-semibold">$5</span>, making it affordable while ensuring quality teaching.</p>
+          </div>
+
+          <div class="bg-white border-l-4 border-purple-400 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold mb-2 text-purple-900">Quality Learning</h3>
+            <p class="text-gray-700">Its strengthen skills and confidence of your child.</p>
+          </div>
+        </div>
       </section>
 
     </main>
@@ -98,5 +117,5 @@
 </template>
 
 <script setup>
-// Enrollment page only – no contact info
+// Enrollment page only – no additional contact info needed
 </script>
