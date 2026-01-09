@@ -12,7 +12,7 @@
     </header>
 
     <!-- Summary Cards -->
-    <section class="grid md:grid-cols-3 gap-8 mb-12">
+    <section class="grid md:grid-cols-3 gap-8">
       <div class="summary-card">
         <div class="icon">📈</div>
         <h3>Track Progress</h3>
@@ -44,18 +44,33 @@
             <div class="text-4xl mb-2">💳</div>
             <h3 class="text-xl font-semibold">Make a Payment</h3>
             <p class="text-sm opacity-90">
-              Secure subscription payment via Paystack
+              Secure international payment via Paystack
             </p>
           </div>
 
           <!-- Body -->
           <div class="p-6 space-y-6">
+
+            <!-- Currency -->
             <div>
-              <label class="block mb-2 font-medium text-gray-700">Amount (₦)</label>
+              <label class="block mb-2 font-medium text-gray-700">Currency</label>
+              <select v-model="payment.currency" class="input">
+                <option value="NGN">₦ Nigerian Naira</option>
+                <option value="USD">$ US Dollar</option>
+                <option value="GBP">£ British Pound</option>
+                <option value="EUR">€ Euro</option>
+              </select>
+            </div>
+
+            <!-- Amount -->
+            <div>
+              <label class="block mb-2 font-medium text-gray-700">
+                Amount  ({{ currencySymbol }})
+              </label>
               <input
                 v-model="payment.amount"
                 type="number"
-                placeholder="5000"
+                placeholder="Enter amount"
                 class="input"
               />
             </div>
@@ -64,13 +79,13 @@
             <div class="flex items-center gap-3 bg-[#145DA0]/5 p-4 rounded-xl text-sm text-gray-700">
               🔒
               <span>
-                Payments are processed securely by Paystack.
+                International cards accepted. Secure & encrypted.
               </span>
             </div>
 
-            <!-- Paystack Button -->
+            <!-- Pay Button -->
             <button @click="payWithPaystack" class="primary-btn">
-              Pay with Paystack
+              Pay {{ currencySymbol }}{{ payment.amount || '0' }}
             </button>
 
             <p
@@ -84,31 +99,44 @@
       </div>
 
       <!-- Info Panel -->
-     <div class="w-full md:w-96 h-full"> 
-      <div class="bg-gradient-to-b from-[#145DA0]/20 to-white rounded-3xl shadow-2xl p-6 flex flex-col gap-5 border border-[#145DA0]/30 h-full min-h-[400px]"> 
-        <h3 class="text-2xl font-bold text-[#145DA0] text-center">Why Pay?</h3> 
-        <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm flex-1"> 
-          <li>Access full learning reports for your child</li> 
-          <li>Track progress in Maths & English</li> 
-          <li>Receive tips and activities to support learning</li> 
-          <li>Secure and easy payment options</li> 
-          <li>Support your child’s growth consistently</li>
-           </ul> 
-           <div class="bg-white/70 p-4 rounded-xl border border-gray-200 text-gray-700 text-center text-sm">
-             🔒 All payments are secured and encrypted. 
-             </div> 
-             </div> 
-             </div> 
-             </div>
-              </div>
+      <div class="w-full md:w-96">
+        <div
+          class="bg-gradient-to-b from-[#145DA0]/20 to-white rounded-3xl shadow-2xl p-6 flex flex-col gap-5 border border-[#145DA0]/30 min-h-[400px]"
+        >
+          <h3 class="text-2xl font-bold text-[#145DA0] text-center">
+            Why Pay?
+          </h3>
+
+          <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm flex-1">
+            <li>Access full learning reports</li>
+            <li>Track Maths & English progress</li>
+            <li>Support your child consistently</li>
+            <li>International & local payments</li>
+            <li>Fast and secure checkout</li>
+          </ul>
+
+          <div
+            class="bg-white/70 p-4 rounded-xl border border-gray-200 text-gray-700 text-center text-sm"
+          >
+            🔐 Foreign currency payments are automatically converted.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 
 const parentName = ref('')
-const payment = ref({ amount: '' })
 const paymentSuccess = ref(false)
+
+const payment = ref({
+  amount: '',
+  currency: 'NGN'
+})
 
 onMounted(() => {
   parentName.value = localStorage.getItem('parentName') || 'Parent'
@@ -120,6 +148,15 @@ onMounted(() => {
   }
 })
 
+const currencySymbol = computed(() => {
+  return {
+    NGN: '₦',
+    USD: '$',
+    GBP: '£',
+    EUR: '€'
+  }[payment.value.currency]
+})
+
 const payWithPaystack = () => {
   if (!payment.value.amount) {
     alert('Please enter an amount')
@@ -129,9 +166,9 @@ const payWithPaystack = () => {
   const handler = window.PaystackPop.setup({
     key: 'pk_live_41d795c8630b685b20c4fc66b1e4dac801f8924b',
     email: 'giggleslearnparent@example.com',
-    amount: payment.value.amount * 100,
-    currency: 'NGN',
-    ref: 'GL-' + Math.floor(Math.random() * 1000000),
+    amount: Number(payment.value.amount) * 100,
+    currency: payment.value.currency,
+    ref: 'GL-' + Date.now(),
     callback() {
       paymentSuccess.value = true
     },
