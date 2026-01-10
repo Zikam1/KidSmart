@@ -132,7 +132,7 @@
 </template>
 
 <script setup>
-const phoneNumber = '2348104233630' // WhatsApp number without +
+const phoneNumber = '2348151482035' // WhatsApp number without +
 
 function enroll(subject) {
   const message = encodeURIComponent(`Hello, I want to enroll for ${subject}.`)
