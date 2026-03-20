@@ -60,7 +60,7 @@
             <span class="text-4xl z-10">🏆</span>
           </div>
           <div class="p-6">
-            <span class="text-sm font-semibold text-green-600">Discovery Day</span>
+            <span class="text-sm font-semibold text-green-600">Discovery </span>
             <h3 class="mt-2 text-xl font-semibold text-gray-900">
               Learning Achievement Day
             </h3>
