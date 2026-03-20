@@ -24,7 +24,7 @@
             <span class="text-4xl z-10">📘</span>
           </div>
           <div class="p-6">
-            <span class="text-sm font-semibold text-blue-600">January</span>
+            <span class="text-sm font-semibold text-blue-600">Mind Sparks</span>
             <h3 class="mt-2 text-xl font-semibold text-gray-900">
               Smart Learning Day
             </h3>
@@ -42,7 +42,7 @@
             <span class="text-4xl z-10">🎤</span>
           </div>
           <div class="p-6">
-            <span class="text-sm font-semibold text-purple-600">March</span>
+            <span class="text-sm font-semibold text-purple-600">Genius Hour</span>
             <h3 class="mt-2 text-xl font-semibold text-gray-900">
               Story & Talk Time
             </h3>
@@ -60,7 +60,7 @@
             <span class="text-4xl z-10">🏆</span>
           </div>
           <div class="p-6">
-            <span class="text-sm font-semibold text-green-600">June</span>
+            <span class="text-sm font-semibold text-green-600">Discovery Day</span>
             <h3 class="mt-2 text-xl font-semibold text-gray-900">
               Learning Achievement Day
             </h3>
