@@ -33,7 +33,7 @@
                   backdrop-blur-xl bg-white/10 border border-white/20 shadow-2xl animate-slideUp">
 
         <!-- Badge -->
-        <span class="inline-block mb-4 px-4 py-1.5 rounded-full text-sm font-medium animate-fadeIn">
+        <span class="inline-block mb-4 px-4 py-1.5 rounded-full text-sm font-medium text-white animate-fadeIn">
           🎒 Learn • Play • Grow
         </span>
 
