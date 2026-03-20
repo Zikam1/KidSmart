@@ -56,7 +56,7 @@
                     href="mailto:hello@gigglelearn.com"
                     class="text-[#145DA0] font-medium hover:underline"
                   >
-                    hello@giggleslearn.com
+                    giggleslearntutors@gmail.com
                   </a>
                 </p>
               </div>
