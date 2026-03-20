@@ -24,7 +24,7 @@
         <div class="flex justify-center">
           <div class="relative max-w-sm w-full rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
             <img
-              src="/assets/pcc.jpg"
+              src="/assets/jk.jpg"
               alt="Children Learning"
               class="w-full h-auto object-cover"
             />

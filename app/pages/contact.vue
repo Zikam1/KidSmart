@@ -69,7 +69,7 @@
                 <h3 class="font-semibold mb-1">WhatsApp</h3>
                 <p>
                   <a
-                    href="https://wa.me/2348151482035?text=Hello%20GiggleLearn!"
+                    href="https://wa.me/2347053634056?text=Hello%20GiggleLearn!"
                     target="_blank"
                     class="bg-[#25D366] text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition inline-block"
                   >

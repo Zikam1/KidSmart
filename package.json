@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@intlify/nuxt3": "^0.1.10",
+    "@intlify/nuxt3": "^0.1.7",
     "@nuxtjs/i18n": "^10.2.1",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@stripe/stripe-js": "^8.6.1",

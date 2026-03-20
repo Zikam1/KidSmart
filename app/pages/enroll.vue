@@ -34,7 +34,7 @@
                 Fun lessons that help children understand numbers, shapes, problem-solving, and logical thinking.
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 4 – 12 years</p>
-              <a href="https://wa.me/2348151482035?text=I%20want%20to%20enroll%20my%20child%20in%20Maths%20at%20GiggleLearn." 
+              <a href="https://wa.me/2347053634056?text=I%20want%20to%20enroll%20my%20child%20in%20Maths%20at%20GiggleLearn." 
                  target="_blank" 
                  class="bg-blue-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-blue-600 transition inline-block text-center">
                 Enroll for Maths
@@ -48,7 +48,7 @@
                 Reading, writing, and speaking activities that build confidence and communication skills.
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 4 – 12 years</p>
-              <a href="https://wa.me/2348151482035?text=I%20want%20to%20enroll%20my%20child%20in%20English%20at%20GigglesLearn." 
+              <a href="https://wa.me/2347053634056?text=I%20want%20to%20enroll%20my%20child%20in%20English%20at%20GigglesLearn." 
                  target="_blank" 
                  class="bg-green-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-green-600 transition inline-block text-center">
                 Enroll for English
@@ -62,7 +62,7 @@
                 Basic computer lessons, coding introductions, and safe technology use.
               </p>
               <p class="text-sm text-gray-500 mb-2">Age: 6 – 12 years</p>
-              <a href="https://wa.me/2348151482035?text=I%20want%20to%20enroll%20my%20child%20in%20Computer%20IT%20at%20GigglesLearn." 
+              <a href="https://wa.me/2347053634056?text=I%20want%20to%20enroll%20my%20child%20in%20Computer%20IT%20at%20GigglesLearn." 
                  target="_blank" 
                  class="bg-purple-500 text-white w-full py-2 rounded-xl font-semibold hover:bg-purple-600 transition inline-block text-center">
                 Enroll for IT
@@ -87,8 +87,8 @@
           </h2>
           <p class="text-gray-700 text-lg leading-relaxed">
             At GigglesLearn, every class is carefully designed to give your child the best learning experience. 
-            Each programme runs <span class="font-semibold">three times a week</span>, and every class costs 
-            <span class="font-semibold">$5</span>. This ensures we maintain small group sizes, personalized attention, 
+            Each programme runs <span class="font-semibold">three times a week</span> 
+            <span class="font-semibold"></span>. This ensures we maintain small group sizes, personalized attention, 
             and engaging lessons that build knowledge, creativity, and confidence.
           </p>
         </div>
@@ -102,7 +102,7 @@
 
           <div class="bg-white border-l-4 border-green-400 p-6 rounded-xl shadow hover:shadow-lg transition">
             <h3 class="text-xl font-semibold mb-2 text-green-900">Cost per Class</h3>
-            <p class="text-gray-700">Each class costs <span class="font-semibold">$5</span>, making it affordable while ensuring quality teaching.</p>
+            <p class="text-gray-700">Each class costs <span class="font-semibold">fee price</span>, making it affordable while ensuring quality teaching.</p>
           </div>
 
           <div class="bg-white border-l-4 border-purple-400 p-6 rounded-xl shadow hover:shadow-lg transition">
