@@ -54,8 +54,8 @@
             <ul class="space-y-4 text-gray-700">
               <li>
                 <span class="font-medium">Email:</span> 
-                <a href="mailto:hello@giggleslearn.com" class="text-[#145DA0] hover:underline">
-                  hello@giggleslearn.com
+                <a href="mailto:giggleslearntutors@gmail.com" class="text-[#145DA0] hover:underline">
+                  giggleslearntutors@gmail.com
                 </a>
               </li>
               <li>
